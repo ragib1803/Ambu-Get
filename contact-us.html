@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Oxygen:wght@300;400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;
+    charset=UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="nav">
+        <nav>
+            <a class="home" href="home1.html">
+                <div class="logo1"><img class="logo" src="logo.png"></div>
+            </a>
+            <a class="nav" href="login.html">
+             Log In/Register
+            </a>
+            <a class="nav" >
+             Get Ambulance
+            </a>
+            <a class="nav">
+             Request Blood
+            </a>
+            <a class="nav" href="contact-us.html">
+             Contact Us
+            </a>
+            
+         </nav>
+    </div>
+    
+    
+        
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <form class="form" action="ContactUs.php" method="post">
+                
+                <div class="label">
+                    <label for="fname">First name:</label>
+                </div>
+                
+                <div class="field">
+                   
+                    <input type="text" name="fname" id="fname" required>
+                </div>
+                
+                <div class="label">
+                    <label for="lname">Last name:</label>
+                </div>
+                
+                <div class="field">
+                    <input type="text" name="lname" id="lname" required>
+                </div>
+                
+                <div class="label">
+                    <label for="email">Email:</label> 
+                </div>
+                
+                <div class="field">    
+                    
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="label">
+                    <label for="phone">Phone:</label> 
+                </div>
+                
+                <div class="field">    
+                    
+                    <input type="text" name="phone" id="phone" required>
+                </div>
+                
+                <div class="label">
+                    <label for="messages">Message:</label> 
+                </div>
+
+                <div class="msg">
+                    <textarea name="messages" id="messages" required rows="8" cols="50"></textarea>
+                </div>
+
+                <button type="submit" class="button1">Send Message</button>
+                
+            </form>
+            <h4>Hotline: 09999994449<br>Email: contactus@bachao.com</h4>
+        </div>
+ 
+    
+</body>
+</html>
