@@ -351,8 +351,7 @@ button:hover {
     
 }
 .contact-container {
-    width: 100vh;
-    height: 75vh;
+    max-width: 800px;
     
     margin: 0 auto;
     padding: 20px;
