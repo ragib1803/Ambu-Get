@@ -24,7 +24,7 @@ nav
     text-align: center;
     display:flex;
     color:rgb(255, 255, 255);
-    width: 190px;
+    width: 170px;
     height: 70px;
     justify-content: center;
     align-items: center;
@@ -132,7 +132,7 @@ a
     width: 40%;
     margin-left: 140px;
     padding: 10px;
-    border: none;
+    border-color:  rgb(134, 33, 33);
     color: rgb(255, 255, 255);
     border-radius: 15px;
     background-color:  rgb(220, 50, 50);
@@ -178,7 +178,6 @@ a
     justify-content: space-around;
     align-items: center;
     margin-top: 10%;
-    margin-bottom: 10%;
     
     
 }
@@ -220,7 +219,6 @@ a
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 .reg-user-container h2 {
@@ -258,7 +256,6 @@ button {
     background-color:  rgb(220, 50, 50);
     cursor: pointer;
     transition: 0.5s;
-    border: none;
 }
 
 button:hover {
@@ -354,14 +351,11 @@ button:hover {
     
 }
 .contact-container {
-    max-width: 600px;
-    height: fit-content;
+    width: 100vh;
+    height: 75vh;
     
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -374,7 +368,7 @@ button:hover {
     width: 150px;
     margin-left: 100px;
     border-style: solid;
-    border-width: 0px;
+    border-width: 2px;
     border-color:  rgb(134, 33, 33);
     color: rgb(255, 255, 255);
     border-radius: 15px;
@@ -415,22 +409,4 @@ h4
     margin-top: 10px;
     width:30vh;
 
-}
-
-h3
-{
-
-    font-size: 30px;
-    margin-bottom: 2vh;
-    text-align: center;
-}
-
-.donor
-{
-    margin-bottom: 10px;
-}
-
-#donorcb:after
-{
-    background: red;
 }
