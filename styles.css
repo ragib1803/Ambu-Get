@@ -15,7 +15,10 @@ nav
     margin-bottom: 20px;
     z-index: 20;
 }
-
+.top
+{
+    z-index: 200;
+}
 .nav
 {
     margin-left: 15px;
@@ -58,6 +61,39 @@ nav
 {
     background-color: rgb(255, 255, 255);
 }
+
+.getambu
+{
+  
+    margin-top: -100px;
+    padding: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+    text-align: center;
+    display:flex;
+    background-color: rgb(223, 22, 22);
+    color:rgb(245, 245, 245);
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 200;
+    
+}
+
+.getambu h1{
+    margin-top: 10px;
+    color:#ffffff;
+}
+
+.getambu:hover
+{
+    background-color: rgb(160, 27, 27);
+}
+
 
 
 body
@@ -338,7 +374,7 @@ button:hover {
 
 {
     height:20vh;
-    width: 25vh;
+    width: 35vh;
 }
 #phone
 
@@ -372,10 +408,11 @@ button:hover {
 }
 .button1
 {
+   
     font-weight: 900;
     margin-top: 20px;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 200px;
     margin-left: 100px;
     border-style: solid;
     border-width: 0px;
@@ -419,6 +456,13 @@ h4
     margin-top: 10px;
     width:30vh;
 
+}
+
+h2
+{
+    font-size:x-large;
+    color:white;
+    font-weight: bolder;
 }
 
 h3
@@ -497,8 +541,8 @@ h3
 {
     font-weight: 900;
     margin-top: 20px;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 170px;
     border-style: solid;
     border-width: 0px;
     border-color:  rgb(134, 33, 33);
@@ -603,5 +647,9 @@ iframe
   }
   body
   {
-    background-color: rgb(255, 239, 239);
+    background-color: rgb(255, 230, 230);
+  }
+  option
+  {
+    font-weight: bold;
   }

@@ -30,18 +30,37 @@
            
          </nav>
     </div>
-    <div class="largecontainer">
-        <h1>Enter Blood type</h1>
-        <img class="ambu" src="blood.webp">
+    <div class="largecontainer" style="padding-bottom: 50px;
+    padding-top: 50px;">
+        <img class="ambu" src="blood.webp"><br>
+        <h1>Select Blood Group</h1>
+
         <form method="post" action="request-blood.php">
             
             
-            <label for="blood">Blood Group:</label>
-            <input type="text" id="blood" name="blood" required>
+            
+            <div class="form-group">
+                <label for="bloodgroup">Blood Group:</label>
+                <select>
+                    <option>A Positive</option>
+                    <option>A Negative</option>
+                    <option>A Unknown</option>
+                    <option>B Positive</option>
+                    <option>B Negative</option>
+                    <option>B Unknown</option>
+                    <option>AB Positive</option>
+                    <option>AB Negative</option>
+                    <option>AB Unknown</option>
+                    <option>O Positive</option>
+                    <option>O Negative</option>
+                    <option>O Unknown</option>
+                    <option>Unknown</option>
+                </select>
+            </div>
             
             
         </form>
-       <a class="button" href="search-blood.html">Find Donors</a>
+       <a class="button" href="search-blood.html"><h2>Find Donors</h2></a>
     </div>
 
 
