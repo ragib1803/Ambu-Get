@@ -50,11 +50,13 @@ nav
     border-radius: 8px;
     transition: 0.5s;
     cursor: pointer;
+    z-index: 20;
+
 }
 
 .home:hover
 {
-    background-color: rgb(164, 31, 31);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -577,7 +579,7 @@ iframe
   .progress {
     background: rgba(255,255,255,0.1);
     justify-content: flex-start;
-    border-radius: 10px;
+    border-radius: 7px;
     align-items: center;
     position: relative;
     padding: 0 5px;
@@ -587,9 +589,9 @@ iframe
   }
   
   .progress-value {
-    animation: load 30s normal forwards;
+    animation: load 60s normal forwards;
  
-    border-radius: 10px;
+    border-radius: 7px;
     background: #e23434;
     height: 30px;
     width: 0;
