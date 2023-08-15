@@ -4,25 +4,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Oxygen:wght@300;400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Oxygen:wght@300;400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AmbuGet Login</title>
+    <title>AmbuGet Home</title>
 </head>
 <body>
     <div id="nav">
         <nav>
             <a class="home" href="home1.html">
                 <div class="logo1"><img class="logo" src="logo.png"></div>
-             
             </a>
             <a class="nav" href="login.html">
              Log In/Register
             </a>
-            <a class="nav" href="get-ambulance.html">
+            <a class="nav">
              Get Ambulance
             </a>
             <a class="nav">
@@ -31,25 +27,30 @@
             <a class="nav" href="contact-us.html">
              Contact Us
             </a>
-            
+           
          </nav>
     </div>
     
-    <div class="login-container">
-        <h1>Login</h1>
-        <form method="post" action="login.php">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Login</button>
-        </form>
-        <a class="button-like-link" href="register.html">Register</a>
-    </div>
-    
 
-    
+    <div class="container">
+        <a class="subcontainer" href="searching.html">
+            <h3>ICU Ambulance</h3>
+            <img class="ambu" src="icu.png">
+        </a>
+        <a class="subcontainer" href="searching.html">
+            <h3>General Ambulance</h3>
+            <img class="ambu" src="general.png">
+        </a>
+        <a class="subcontainer" href="searching.html">
+            <h3>Isolation Ambulance</h3>
+            <img class="ambu" src="ISOLATION.png">
+        </a>
+        <a class="subcontainer" href="searching.html">
+            <h3>Freezing Van</h3>
+            <img class="ambu" src="freezer.png">
+        </a>
+
+    </div>
+
 </body>
 </html>

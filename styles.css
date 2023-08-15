@@ -334,7 +334,7 @@ button:hover {
 
 {
     height:20vh;
-    width: 30vh;
+    width: 25vh;
 }
 #phone
 
@@ -354,8 +354,8 @@ button:hover {
     
 }
 .contact-container {
-    max-width: 600px;
-    height: fit-content;
+    max-width: 800px;
+    max-height: 1000px;
     
     margin: 0 auto;
     margin-bottom: 20px;
@@ -433,4 +433,41 @@ h3
 #donorcb:after
 {
     background: red;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    max-height: 1000px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    max-height: 1000px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.ambu
+{
+    max-width: 10vh;
 }
