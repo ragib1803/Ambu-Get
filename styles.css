@@ -13,7 +13,7 @@ nav
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 20px;
-    
+    z-index: 20;
 }
 
 .nav
@@ -31,6 +31,7 @@ nav
     border-radius: 8px;
     transition: 0.5s;
     cursor: pointer;
+    z-index: 20;
 }
 
 .home
@@ -84,7 +85,7 @@ body
     margin-top: -80px;
     height: 100vh;
     width: 100vh;
-    z-index: -1;
+    z-index: 12;
 }
 
 a
@@ -110,6 +111,7 @@ a
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
 }
 .login-container h2 {
     text-align: center;
@@ -419,7 +421,7 @@ h4
 
 h3
 {
-
+    font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     margin-bottom: 2vh;
     text-align: center;
@@ -469,5 +471,135 @@ h3
 }
 .ambu
 {
-    max-width: 10vh;
+    max-width: 30vh;
 }
+.smallcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    max-height: 1000px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); */
+    cursor: pointer;
+}
+.button
+{
+    font-weight: 900;
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  rgb(134, 33, 33);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color:  rgb(220, 50, 50);
+    transition: 0.4s;
+}
+
+.button:hover
+{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(134, 33, 33);
+    border-color: rgb(0, 0, 0);
+}
+
+.button:active
+{
+    border-color:  rgb(134, 33, 33);
+
+    color: azure;
+    background-color: rgb(255, 116, 116);
+}
+
+.smallcontainer label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.smallcontainer input[type="text"],
+.smallcontainer input[type="password"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+iframe
+{
+    border-radius: 30px;
+}
+.largecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    max-height: 1000px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+}
+.loader {
+    border: 10px solid #ffbdbd; /* Light grey */
+    border-top: 10px solid #db3434; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+ 
+
+
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 600px;
+  }
+  
+  .progress-value {
+    animation: load 30s normal forwards;
+ 
+    border-radius: 10px;
+    background: #e23434;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+  body
+  {
+    background-color: rgb(255, 239, 239);
+  }
