@@ -25,11 +25,13 @@
              Get Ambulance
             </a>
             <a class="nav" href="request-blood.html">
-             Request Blood
-            </a>
+                Find Donor            </a>
             <a class="nav" href="contact-us.html">
              Contact Us
             </a>
+            <a class="nav" href="aboutus.html">
+                Services
+                        </a>
            
          </nav>
     </div>
@@ -43,18 +45,20 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
-            <div class="smallcontainer">
+            <div class="smallcontainer" style="cursor: default;">
                 <label for="cars">User Type:</label>
 
-            <select name="cars" id="cars">
-                <option value="volvo">Driver</option>
-                <option value="saab">Passenger</option>
-            </select>
+            <div class="select">
+                <select name="user" id="user">
+                    <option value="driver">Driver</option>
+                    <option value="passenger">Passenger</option>
+                </select>
+            </div>
             </div>
             
             <button type="submit">Login</button>
-        </form>
-        
+        </form><br>
+        <h2 style="color: rgb(168, 0, 0); font-size: medium;">Dont have an account? Click Register.</h2>
         <a class="button-like-link" href="register.html">Register</a>
     </div>
     

@@ -71,7 +71,7 @@ nav
     font-size: 20px;
     text-align: center;
     display:flex;
-    background-color: rgb(223, 22, 22);
+    background-color: rgb(179, 0, 0);
     color:rgb(245, 245, 245);
     width: 400px;
     height: 100px;
@@ -91,7 +91,7 @@ nav
 
 .getambu:hover
 {
-    background-color: rgb(160, 27, 27);
+    background-color: rgb(255, 0, 0);
 }
 
 
@@ -106,7 +106,8 @@ body
 
 .nav:hover
 {
-    background-color: rgb(164, 31, 31);
+    background-color: rgb(255, 255, 255);
+    color: rgb(164, 31, 31);
  
 }
 
@@ -514,6 +515,10 @@ h3
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    transition: 0.5s;
+}
+.subcontainer:hover{
+    background-color: #c2c2c2
 }
 .ambu
 {
@@ -653,3 +658,110 @@ iframe
   {
     font-weight: bold;
   }
+  h5{
+    font-size: 20px;
+  }
+
+  :root {
+    --background-gradient: linear-gradient(178deg, #ffff33 10%, #3333ff);
+    --gray: #ffffff;
+    --darkgray: #aa0000;
+  }
+  
+  select {
+    /* Reset Select */
+    appearance: none;
+    outline: 10px rgb(255, 255, 255);
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #ffffff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+    color: #ffffff;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #740000;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #ff1818;
+  }
+  option
+  {
+    color:white;
+  }
+  .service-container
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    max-width: 800px;
+    max-height: 1000px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+  }
+
+  .service-container .subcontainer
+  {
+    margin-left:10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav, .home, .getambu {
+        font-size: 50px;
+        width: auto;
+        margin: 5px;
+    }
+    nav {
+        padding: 15px;
+    }
+    .getambu {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav, .home, .getambu {
+        font-size: 14px;
+        height: 50px;
+    }
+    nav {
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
